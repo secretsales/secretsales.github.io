@@ -4,8 +4,8 @@
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
-    padding:20px 0 30px;
-    border-bottom:solid $grey-color 50px;
+    padding:20px 0 0;
+    //border-bottom:solid $grey-color 50px;
 }
 
 .site-title {
@@ -15,6 +15,8 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    height: 80px;
+
     svg {
         width:250px;
     }
@@ -30,8 +32,9 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    height: 56px;
+    background-color: $grey-color;
 
     .menu-icon {
         display: none;
@@ -44,6 +47,19 @@
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+
+        li {
+            float: left;
+            margin-right: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: smaller;
         }
     }
 
@@ -103,8 +119,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey-color;
 }
 
 .footer-heading {
@@ -120,7 +136,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -173,7 +189,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
+    background-color: #f3f1f2;
 }
 
 .page-heading {
@@ -186,12 +203,37 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        border-bottom: 1px solid $grey-color;
+        padding-bottom: 20px;
+
+        img {
+            padding-bottom: 20px;
+        }
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-dark;
+}
+
+p.post-meta-date {
+    float: left;
+}
+
+ul.post-meta-categories {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+
+    li {
+        float: left;
+    }
+
+    li:not(:last-child):after {
+        content: '/';
+        padding: 0 5px;
+    }
 }
 
 .post-link {
@@ -199,7 +241,9 @@
     font-size: 24px;
 }
 
-
+.post-banner {
+    width: 100%;
+}
 
 /**
  * Posts

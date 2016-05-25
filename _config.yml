@@ -24,3 +24,7 @@ defaults:
 
 # Build settings
 markdown: kramdown
+
+# Post settings
+excerpt_separator: <!--more-->
+

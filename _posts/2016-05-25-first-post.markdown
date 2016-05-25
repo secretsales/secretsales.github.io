@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-05-04 11:29:53 +0100
+title:  "First Post!"
+date:   2016-05-25 11:09:53 +0100
 categories: jekyll update
-banner: "https://scotch.io/wp-content/uploads/2015/10/jekyll-banner.png"
+banner: ""
 ---
 You’ll find this post in your `_posts` directory. <!--more--> Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
