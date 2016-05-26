@@ -60,6 +60,10 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: smaller;
+            @include media-query($on-palm) {
+                float: none;
+                margin: 0;
+            }
         }
     }
 
@@ -67,8 +71,9 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: $background-color-2;
         border: 1px solid $grey-color-light;
+        height: auto;
         border-radius: 5px;
         text-align: right;
 
@@ -84,10 +89,6 @@
             > svg {
                 width: 18px;
                 height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
             }
         }
 
