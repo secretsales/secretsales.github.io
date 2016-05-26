@@ -9,7 +9,7 @@ I've never really been a big fan of the refinements menu on our listings page. I
 
 Other issues include:
 
-* Its buggy on mobile devices and tablets.
+* It's buggy on mobile devices and tablets.
 * It can be pretty sprawling and messy on some categories (see sizes in outlet, MASSIVE LIST).
 
 I had a quick jaunt over to other e-commerce fashion type sites to see what solutions other tech folk have come up with.
@@ -24,7 +24,7 @@ Both of these case studies, as well as most other sites and even past employers 
 
 <div style="clear:both;"></div>
 <br>
-Quite like the use of [Asos's](http://www.asos.com/women/jumpsuits-playsuits/cat/pgecategory.aspx?cid=7618&via=top) refinments below. All out and no pesky accordion. Although the have limited themselves somewhat as the menu gets fixed as you scroll so you can only fit so many options in until the rest are unreachable. Why you do this Asos? Why?
+Quite like the use of [Asos's](http://www.asos.com/women/jumpsuits-playsuits/cat/pgecategory.aspx?cid=7618&via=top) refinements below. All out and no pesky accordion. Although they have limited themselves somewhat as the menu gets fixed as you scroll so you can only fit so many options in until the rest are unreachable. Why you do this Asos? Why?
 
 <img src="/post-img/asos-refinements.png" style="float: left;">
 
