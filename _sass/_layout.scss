@@ -251,6 +251,9 @@ ul.post-meta-categories {
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    img {
+        width: 100%;
+    }
 }
 
 .post-title {
