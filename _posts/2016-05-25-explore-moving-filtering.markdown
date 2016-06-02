@@ -11,6 +11,8 @@ Other issues include:
 
 * It's buggy on mobile devices and tablets.
 * It can be pretty sprawling and messy on some categories (see sizes in outlet, MASSIVE LIST).
+
+
 <!--more-->
 
 I had a quick jaunt over to other e-commerce fashion type sites to see what solutions other tech folk have come up with.
